@@ -1,0 +1,25 @@
+body{
+    background-color: bisque;
+    text-align: center;
+}
+h1{
+    padding-top: 20%;
+    padding-bottom: 10px;
+    font-size: 4em;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+button{
+    padding: 1em 3em;
+    font-size: 1em;
+    border-radius: 7px;
+    background-color: transparent;
+    opacity: 0.8;
+    border: 2px solid black;
+    transition: all 0.25s;
+    
+}
+button:hover{
+    cursor:pointer;
+    padding: 1.1em 3.1em;
+    box-shadow: 0 0.3em 0.5em -0.4em;
+}
